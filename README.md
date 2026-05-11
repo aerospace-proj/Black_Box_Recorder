@@ -18,7 +18,6 @@ Place both files in your project folder.
 
 ```bash
 gcc -Wall -Wextra -o test_all test_all.c altitude_sensor.c speed_sensor.c pitch_sensor.c roll_sensor.c flight_phase.c crash_scenario.c circular_buffer.c utils.c error_handler.c event_handler.c database.c sqlite3.c -lm -DSQLITE_WIN32_GETVERSIONEX=0 -D_WIN32_WINNT=0x0600 flight_sim.exe
-'''
 
 ### Step 3: Run
 '''bash
