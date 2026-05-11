@@ -4,7 +4,6 @@
 
 This project simulates an aircraft Flight Data Recorder (Black Box). It records 4 sensors (Altitude, Speed, Pitch, Roll), detects crashes, and displays real-time data on a Java Swing dashboard.
 
----
 
 ## Part 1: Run the C Simulation
 
@@ -22,7 +21,7 @@ gcc -Wall -Wextra -o test_all test_all.c altitude_sensor.c speed_sensor.c pitch_
 ### Step 3: Run
 '''bash
 flight_sim.exe
-'''
+
 
 The simulation runs for 200 seconds. You will see:
 
@@ -49,7 +48,7 @@ Create a folder called lib and put the jar file inside.
 In Dashboard.java, change this line to your path:
 '''bash
 String url = "jdbc:sqlite:C:\\YOUR_PATH\\flight_data.db";
-'''
+
 
 ### Step 3 : Compile and Run
 The dashboard shows:
@@ -66,13 +65,13 @@ The dashboard shows:
 ### Step 1 : Install Python Library
 '''bash
 pip install fpdf
-'''
+
 
 ### Step 2 : Run test script
 Place test_flight.py in the same folder as flight_sim.exe and run:
 '''bash
 python test_flight.py
-'''
+
 The script runs multiple flight tests and generates a PDF report with results.
 
 
