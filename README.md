@@ -97,19 +97,6 @@ String url = "jdbc:sqlite:C:\\YOUR_PATH\\flight_data.db";
 ---
 
 ## Step 3: Compile and Run
-
-### Compile
-
-```bash
-javac -cp "lib\sqlite-jdbc-3.47.0.0.jar" flightUI\*.java
-```
-
-### Run
-
-```bash
-java -cp ".;lib\sqlite-jdbc-3.47.0.0.jar" flightUI.Main
-```
-
 The dashboard shows:
 
 - 4 sensor values updating in real-time
